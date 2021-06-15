@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "aed-zengo-hq", "aed-zengo-hq.njsproj", "{F6C068A4-23FB-4570-9526-AF4170E956C5}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "aed-data-cloud", "..\aed-data-cloud\aed-data-cloud.njsproj", "{5E9F9C70-DCFB-4265-9727-AE4504731A4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C068A4-23FB-4570-9526-AF4170E956C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C068A4-23FB-4570-9526-AF4170E956C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C068A4-23FB-4570-9526-AF4170E956C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C068A4-23FB-4570-9526-AF4170E956C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9F9C70-DCFB-4265-9727-AE4504731A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9F9C70-DCFB-4265-9727-AE4504731A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9F9C70-DCFB-4265-9727-AE4504731A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F202394E-458D-4632-865F-38B41C21ECA5}
+	EndGlobalSection
+EndGlobal
