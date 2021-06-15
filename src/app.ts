@@ -9,7 +9,7 @@ const app: EX.Express = EX();
  /// ============ INIT VARIABLES
 //app.set('port', process.env.PORT || 3000);
 const env = process.env;
-tsc
+
 
 Enviro.config();
 process.env.port = process.env.port || '3000';
@@ -40,7 +40,7 @@ app.get('/', (req: EX.Request, res: EX.Response) => {
 //});
 
 
-//app.use('/env', EnviroRouter);
+app.use('/env', EnviroRouter);
 app.use('/coins', CoinsRouter);
 
 
