@@ -9,7 +9,7 @@ const app: EX.Express = EX();
  /// ============ INIT VARIABLES
 //app.set('port', process.env.PORT || 3000);
 const env = process.env;
-import * as uuid from 'uuid';
+tsc
 
 Enviro.config();
 process.env.port = process.env.port || '3000';
