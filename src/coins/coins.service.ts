@@ -16,7 +16,7 @@ export class CoinsService {
 	public aggregate : number = 7
 	constructor() {
 		this.BaseUrl = `https://min-api.cryptocompare.com/data/exchange/symbol/histoday?`
-			+ `api_key=${this.CRYPTO_KEY}&e=Coinbase&limit=1`
+			+ `api_key=${this.CRYPTO_KEY}&limit=1`			  //&e=Coinbase
 			+ `&aggregate=${this.aggregate}&tsym=USD`; 
 	}
 	private urlFactory(coin: string, date: Date): string {
